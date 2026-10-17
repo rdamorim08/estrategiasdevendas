@@ -2,14 +2,13 @@
 
 Site no ar em: **https://rdamorim08.github.io/estrategiasdevendas/**
 
-Esta pasta é a versão 2. Substitui a anterior inteira.
+Esta é a versão 4. Substitui a anterior inteira.
 
 ## O que mudou nesta versão
 
-1. Todo contato passou a ser **rdamorim08@gmail.com**. O endereço antigo não aparece mais em lugar nenhum.
-2. Os travessões foram retirados de todos os textos. As frases foram reescritas, não apenas cortadas, para o texto continuar fluindo bem.
-3. O endereço do site foi corrigido nas prévias de compartilhamento, agora apontando para `estrategiasdevendas` e não mais para o nome antigo.
-4. O ícone de fechar das perguntas frequentes virou um sinal de menos de verdade.
+1. **Nova foto de topo.** A imagem do xadrez sem o texto cravado entrou no lugar da antiga, que era o slide com "ESTRATÉGIAS DE VENDA" escrito por cima. O enquadramento foi ajustado para você aparecer à direita, livre do título.
+2. **Seu retrato voltou para a seção "Quem ensina".** A foto da poltrona, recortada em proporção 4 por 5 e otimizada para carregar rápido.
+3. A seção do autor voltou ao layout de duas colunas, com o texto à esquerda e a foto à direita. No celular, a foto desce para baixo do texto.
 
 ## Arquivos da pasta
 
@@ -20,7 +19,9 @@ aguardando.html   aguardando pagamento (Pix ou boleto)
 boas-vindas.html  primeiros passos do aluno
 404.html          endereço errado
 style.css         o visual de todas as páginas
-img/              hero.jpg, bio.jpg, 3d3r.jpg
+img/hero.jpg      foto do xadrez, usada no topo
+img/bio.jpg       seu retrato, usado na seção "Quem ensina"
+img/3d3r.jpg      o quadro dos 3 D's e 3 R's
 ```
 
 Todos os botões de compra apontam para `https://chk.eduzz.com/uehzxj2f`.
@@ -33,22 +34,23 @@ Todos os botões de compra apontam para `https://chk.eduzz.com/uehzxj2f`.
 4. Role até o fim e clique em **Commit changes**
 5. Aguarde de 1 a 3 minutos e recarregue o site
 
-O GitHub substitui os arquivos de mesmo nome automaticamente. Você não precisa apagar nada antes.
+O GitHub substitui os arquivos de mesmo nome automaticamente, inclusive as imagens.
 
-> Se o site continuar mostrando a versão antiga depois de 3 minutos, force a recarga:
+> Se o site continuar mostrando a versão antiga depois de 3 minutos, force a recarga com
 > **Cmd + Shift + R** no Mac. É o navegador guardando a versão anterior em cache.
+> Com imagens trocadas, isso acontece com frequência.
 
 ## Conferir depois de subir
 
 - [ ] Abrir o site no celular e no computador
+- [ ] Confirmar que o topo mostra a foto do xadrez sem texto escrito por cima
+- [ ] Confirmar que o seu retrato aparece na seção "Quem ensina"
 - [ ] Clicar em todos os botões e confirmar que abrem o checkout da Eduzz
-- [ ] Procurar o e-mail no rodapé e confirmar que está o rdamorim08@gmail.com
+- [ ] Clicar no Instagram do rodapé e confirmar que abre o perfil `rafaelamorimof`
+- [ ] Clicar no YouTube do rodapé e confirmar que abre o canal `@RAFAELAMORIMOF`
 - [ ] Abrir `/obrigado.html`, `/aguardando.html` e `/boas-vindas.html` direto na barra de endereço
-- [ ] Mandar o link para você mesmo no WhatsApp e ver se a prévia mostra a imagem certa
 
 ## Endereços para configurar na Eduzz
-
-No painel da Eduzz, em **Produtos**, no seu produto, em **Configurações** ou **Páginas**:
 
 | Situação | Endereço |
 |---|---|
@@ -58,6 +60,10 @@ No painel da Eduzz, em **Produtos**, no seu produto, em **Configurações** ou *
 
 A página de boas-vindas não tem gatilho automático na Eduzz. Ela serve para o e-mail de entrega do produto. O botão da página de compra aprovada já leva o aluno até ela.
 
+## A terceira imagem que você mandou
+
+O banner "Oi turma, eu sou o Rafael Amorim" já tem texto e chamada próprios, então não entrou no site. Ele funciona melhor como capa de vídeo no YouTube, como primeiro slide de um story ou como abertura da aula 0.1 do curso. Se quiser usar em alguma página, me diga onde que eu encaixo.
+
 ## Domínio próprio, quando quiser
 
-Em **Settings**, **Pages**, campo **Custom domain**, você pode apontar um domínio seu, por exemplo `estrategiasdevendas.com.br`. Depois é preciso criar um registro CNAME no painel de DNS do domínio apontando para `rdamorim08.github.io`. Se for fazer isso, me chame que eu te passo os valores exatos.
+Em **Settings**, **Pages**, campo **Custom domain**, você pode apontar um domínio seu. Depois é preciso criar um registro CNAME no painel de DNS do domínio apontando para `rdamorim08.github.io`. Se for fazer isso, me chame que eu te passo os valores exatos.
